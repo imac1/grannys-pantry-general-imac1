@@ -1,0 +1,19 @@
+Point 1 - Create Postman account
+Point 2 - Create Pantry at https://getpantry.cloud/, my pantry ID is: 38f86c2a-412a-4347-a965-a9ea56886de4
+Point 3 - Create Postman My Workspace
+Point 4 - Create Postman Collection Granny's Pantry
+Point 5 - Check your Pantry using GET request with URL:  https://getpantry.cloud/apiv1/pantry/38f86c2a-412a-4347-a965-a9ea56886de4
+Point 6 - POST request with URL:  https://getpantry.cloud/apiv1/pantry/38f86c2a-412a-4347-a965-a9ea56886de4/basket/BigBasket
+Point 7 - GET  {{ pantry_api_path}}/{{pantry_id}}, POST  {{ pantry_api_path}}/{{pantry_id}}/{{basket_name}}
+Point 8 - PUT {{ pantry_api_path}}/{{pantry_id}}/{{basket_name}} with {"fruits" : ["apple", "banana", "peach"]}
+Point 9 - GET  {{ pantry_api_path}}/{{pantry_id}}/{{basket_name}}
+Point 10 - DELETE {{ pantry_api_path}}/{{pantry_id}}/{{basket_name}}
+Point 11 - Create Restore Basket folder. The folder contains requests: Create new basket, Fill basket, Get content of basket.
+Point 12 - Restore basket
+Point 13 - Test the Collection
+Point 14 - Export
+
+Point 15 - Pantry ID 04caeec1-13a5-43cf-943f-59c9269fbfc1
+
+
+
