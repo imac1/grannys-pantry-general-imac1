@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "f1e2f86c-1408-43e5-98e3-a8acc1199941",
+		"name": "restore basket",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "13126555"
+	},
+	"item": [
+		{
+			"name": "Create new basket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "https://getpantry.cloud/apiv1/pantry/04caeec1-13a5-43cf-943f-59c9269fbfc1/basket/MyBigBasket"
+			},
+			"response": []
+		},
+		{
+			"name": "update basket",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"method\": \"PUT\",\n    \"fruits\" : [\"flowers\", \"wine\", \"strawberries\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://getpantry.cloud/apiv1/pantry/04caeec1-13a5-43cf-943f-59c9269fbfc1/basket/MyBigBasket"
+			},
+			"response": []
+		}
+	]
+}
